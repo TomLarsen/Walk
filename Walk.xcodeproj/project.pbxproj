@@ -19,6 +19,9 @@
 		EC9CE9801F2DFAC600FD5236 /* ic_marker_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9CE97F1F2DFAC600FD5236 /* ic_marker_orange.png */; };
 		ECA7A72B1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECA7A72A1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt */; };
 		ECA7A72D1F2F493D00DB1242 /* Knooppunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA7A72C1F2F493D00DB1242 /* Knooppunt.swift */; };
+		ECACAEA21F386E27000C576A /* knooppunten.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECACAEA11F386E27000C576A /* knooppunten.txt */; };
+		ECACAEA31F386E27000C576A /* knooppunten.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECACAEA11F386E27000C576A /* knooppunten.txt */; };
+		ECACAEA41F386E27000C576A /* knooppunten.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECACAEA11F386E27000C576A /* knooppunten.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,7 @@
 		EC9CE97F1F2DFAC600FD5236 /* ic_marker_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_marker_orange.png; sourceTree = "<group>"; };
 		ECA7A72A1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knooppunten.2017.07.30.txt; sourceTree = "<group>"; };
 		ECA7A72C1F2F493D00DB1242 /* Knooppunt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knooppunt.swift; sourceTree = "<group>"; };
+		ECACAEA11F386E27000C576A /* knooppunten.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knooppunten.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		EC78E10E1F2B3B6A00D8E53E /* Walk */ = {
 			isa = PBXGroup;
 			children = (
+				ECACAEA11F386E27000C576A /* knooppunten.txt */,
 				ECA7A72A1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt */,
 				EC78E10F1F2B3B6A00D8E53E /* AppDelegate.swift */,
 				EC78E1111F2B3B6A00D8E53E /* ViewController.swift */,
@@ -278,6 +283,7 @@
 			files = (
 				EC78E11D1F2B3B6A00D8E53E /* LaunchScreen.storyboard in Resources */,
 				EC78E11A1F2B3B6A00D8E53E /* Assets.xcassets in Resources */,
+				ECACAEA21F386E27000C576A /* knooppunten.txt in Resources */,
 				EC78E1151F2B3B6A00D8E53E /* Main.storyboard in Resources */,
 				ECA7A72B1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt in Resources */,
 				EC9CE9801F2DFAC600FD5236 /* ic_marker_orange.png in Resources */,
@@ -288,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECACAEA31F386E27000C576A /* knooppunten.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECACAEA41F386E27000C576A /* knooppunten.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
