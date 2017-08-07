@@ -176,7 +176,6 @@ class ViewController: UIViewController, GMSMapViewDelegate
         marker.map = mapView
     }
     
-    
     func snapToMarkerIfItIsOutsideViewport(m: GMSMarker)
     {
         var region = GMSVisibleRegion();
