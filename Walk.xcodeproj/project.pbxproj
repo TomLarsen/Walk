@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3419A84CA9139D7240A7399E /* libPods-Walk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54866AB27D8B55038917BC33 /* libPods-Walk.a */; };
 		EC78E1101F2B3B6A00D8E53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78E10F1F2B3B6A00D8E53E /* AppDelegate.swift */; };
 		EC78E1121F2B3B6A00D8E53E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78E1111F2B3B6A00D8E53E /* ViewController.swift */; };
 		EC78E1151F2B3B6A00D8E53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC78E1131F2B3B6A00D8E53E /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		EC78E11D1F2B3B6A00D8E53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC78E11B1F2B3B6A00D8E53E /* LaunchScreen.storyboard */; };
 		EC78E1281F2B3B6A00D8E53E /* WalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78E1271F2B3B6A00D8E53E /* WalkTests.swift */; };
 		EC78E1331F2B3B6B00D8E53E /* WalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78E1321F2B3B6B00D8E53E /* WalkUITests.swift */; };
+		EC9CE9801F2DFAC600FD5236 /* ic_marker_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9CE97F1F2DFAC600FD5236 /* ic_marker_orange.png */; };
+		ECA7A72B1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECA7A72A1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt */; };
+		ECA7A72D1F2F493D00DB1242 /* Knooppunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA7A72C1F2F493D00DB1242 /* Knooppunt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F5ED89A78B563FE842295E1 /* Pods-Walk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walk/Pods-Walk.release.xcconfig"; sourceTree = "<group>"; };
+		54866AB27D8B55038917BC33 /* libPods-Walk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Walk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA35F019D005651EB59EC5E /* Pods-Walk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walk/Pods-Walk.debug.xcconfig"; sourceTree = "<group>"; };
+		EC08D70F1F2DE57B00F5FFFC /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		EC78E10C1F2B3B6A00D8E53E /* Walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC78E10F1F2B3B6A00D8E53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC78E1111F2B3B6A00D8E53E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,9 @@
 		EC78E12E1F2B3B6B00D8E53E /* WalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC78E1321F2B3B6B00D8E53E /* WalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkUITests.swift; sourceTree = "<group>"; };
 		EC78E1341F2B3B6B00D8E53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9CE97F1F2DFAC600FD5236 /* ic_marker_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_marker_orange.png; sourceTree = "<group>"; };
+		ECA7A72A1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knooppunten.2017.07.30.txt; sourceTree = "<group>"; };
+		ECA7A72C1F2F493D00DB1242 /* Knooppunt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knooppunt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3419A84CA9139D7240A7399E /* libPods-Walk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D66FF71F3EDACC4D16CBEEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BA35F019D005651EB59EC5E /* Pods-Walk.debug.xcconfig */,
+				2F5ED89A78B563FE842295E1 /* Pods-Walk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8810CD1BE2234DE092CFFA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54866AB27D8B55038917BC33 /* libPods-Walk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC78E1031F2B3B6A00D8E53E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				EC78E1261F2B3B6A00D8E53E /* WalkTests */,
 				EC78E1311F2B3B6B00D8E53E /* WalkUITests */,
 				EC78E10D1F2B3B6A00D8E53E /* Products */,
+				4D66FF71F3EDACC4D16CBEEF /* Pods */,
+				D8810CD1BE2234DE092CFFA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +130,17 @@
 		EC78E10E1F2B3B6A00D8E53E /* Walk */ = {
 			isa = PBXGroup;
 			children = (
+				ECA7A72A1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt */,
 				EC78E10F1F2B3B6A00D8E53E /* AppDelegate.swift */,
 				EC78E1111F2B3B6A00D8E53E /* ViewController.swift */,
+				EC9CE97F1F2DFAC600FD5236 /* ic_marker_orange.png */,
 				EC78E1131F2B3B6A00D8E53E /* Main.storyboard */,
 				EC78E1191F2B3B6A00D8E53E /* Assets.xcassets */,
 				EC78E11B1F2B3B6A00D8E53E /* LaunchScreen.storyboard */,
 				EC78E11E1F2B3B6A00D8E53E /* Info.plist */,
 				EC78E1161F2B3B6A00D8E53E /* Walk.xcdatamodeld */,
+				EC08D70F1F2DE57B00F5FFFC /* Location.gpx */,
+				ECA7A72C1F2F493D00DB1242 /* Knooppunt.swift */,
 			);
 			path = Walk;
 			sourceTree = "<group>";
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC78E1371F2B3B6B00D8E53E /* Build configuration list for PBXNativeTarget "Walk" */;
 			buildPhases = (
+				F2DE4A5E7583633C6A63DD29 /* [CP] Check Pods Manifest.lock */,
 				EC78E1081F2B3B6A00D8E53E /* Sources */,
 				EC78E1091F2B3B6A00D8E53E /* Frameworks */,
 				EC78E10A1F2B3B6A00D8E53E /* Resources */,
+				5285044C3DDA9DEE37290A5B /* [CP] Embed Pods Frameworks */,
+				87C25AED4805D0E060D60E99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +279,8 @@
 				EC78E11D1F2B3B6A00D8E53E /* LaunchScreen.storyboard in Resources */,
 				EC78E11A1F2B3B6A00D8E53E /* Assets.xcassets in Resources */,
 				EC78E1151F2B3B6A00D8E53E /* Main.storyboard in Resources */,
+				ECA7A72B1F2F2CB500DB1242 /* knooppunten.2017.07.30.txt in Resources */,
+				EC9CE9801F2DFAC600FD5236 /* ic_marker_orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +300,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5285044C3DDA9DEE37290A5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walk/Pods-Walk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C25AED4805D0E060D60E99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walk/Pods-Walk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DE4A5E7583633C6A63DD29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC78E1081F2B3B6A00D8E53E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA7A72D1F2F493D00DB1242 /* Knooppunt.swift in Sources */,
 				EC78E1181F2B3B6A00D8E53E /* Walk.xcdatamodeld in Sources */,
 				EC78E1121F2B3B6A00D8E53E /* ViewController.swift in Sources */,
 				EC78E1101F2B3B6A00D8E53E /* AppDelegate.swift in Sources */,
@@ -417,6 +506,7 @@
 		};
 		EC78E1381F2B3B6B00D8E53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA35F019D005651EB59EC5E /* Pods-Walk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8BT2ATKDEC;
@@ -430,6 +520,7 @@
 		};
 		EC78E1391F2B3B6B00D8E53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5ED89A78B563FE842295E1 /* Pods-Walk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8BT2ATKDEC;
@@ -518,6 +609,7 @@
 				EC78E1391F2B3B6B00D8E53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC78E13A1F2B3B6B00D8E53E /* Build configuration list for PBXNativeTarget "WalkTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +618,7 @@
 				EC78E13C1F2B3B6B00D8E53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC78E13D1F2B3B6B00D8E53E /* Build configuration list for PBXNativeTarget "WalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +627,7 @@
 				EC78E13F1F2B3B6B00D8E53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
